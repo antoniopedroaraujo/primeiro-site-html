@@ -30,8 +30,12 @@ body {
     background-color: rgb(204, 236, 236);
     min-height: 120px;
     border-bottom: 2px solid rgb(128, 128, 128);
-    
-    
+}
+.header > img{
+    border-radius: 10px;
+}
+.header > h1{
+    display: inline;
 }
 .content {
     background-color: white;
@@ -40,6 +44,24 @@ body {
 }
 .footer {
     background-color: rgb(41, 35, 59);
-    min-height: 100px;
+    min-height: 50px;
+    color: white;
+    text-align: center;
+}
+table{
+    border-spacing: 0px;
+    background-color: lightgray;
+}
+tr:nth-child(even) {
+    background-color: gray;
+}
+th,td {
+    padding: 15px;
+} 
+td {
+    border: 1px solid black;
+}
+th {
+    background-color: black;
     color: white;
 }
